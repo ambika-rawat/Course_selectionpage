@@ -1,2 +1,2 @@
 GitHub repository link -https://github.com/ambika-rawat/Course_selectionpage.git
-Live website GitHub pages URL -
+Live website GitHub pages URL -https://ambika-rawat.github.io/Course_selectionpage/
