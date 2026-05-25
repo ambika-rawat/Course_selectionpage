@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Selection Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Course Selection Portal</h1>
+        <p>Select your favorite course</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Course Section -->
+    <section class="course-container">
+
+        <div class="course-card">
+            <h2>Web Development</h2>
+            <p>Learn HTML, CSS, and JavaScript.</p>
+            <p><strong>Course Code:</strong> WD101</p>
+            <p><strong>Instructor:</strong> Prof. Sharma</p>
+            <button onclick="selectCourse('Web Development')">
+                Select Course
+            </button>
+        </div>
+
+        <div class="course-card">
+            <h2>Python Programming</h2>
+            <p>Master Python from basics to advanced.</p>
+            <p><strong>Course Code:</strong> PY202</p>
+            <p><strong>Instructor:</strong> Dr. Mehta</p>
+            <button onclick="selectCourse('Python Programming')">
+                Select Course
+            </button>
+        </div>
+
+        <div class="course-card">
+            <h2>Data Structures</h2>
+            <p>Understand algorithms and problem solving.</p>
+            <p><strong>Course Code:</strong> DS303</p>
+            <p><strong>Instructor:</strong> Prof. Singh</p>
+            <button onclick="selectCourse('Data Structures')">
+                Select Course
+            </button>
+        </div>
+
+        <div class="course-card">
+            <h2>Machine Learning</h2>
+            <p>Introduction to AI and machine learning concepts.</p>
+            <p><strong>Course Code:</strong> ML404</p>
+            <p><strong>Instructor:</strong> Dr. Verma</p>
+            <button onclick="selectCourse('Machine Learning')">
+                Select Course
+            </button>
+        </div>
+
+    </section>
+
+    <!-- Selected Course Display -->
+    <section class="selected-course">
+        <h2 id="result">No course selected yet</h2>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Course Selection Portal | South Asian University</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
